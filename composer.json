@@ -1,0 +1,29 @@
+{
+  "name": "limitlessv/magento2_HelloWorld",
+  "description": "Magento 2 Hellow world",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Limitless Virtue LLC",
+      "email": "support@limitlessv.com",
+      "homepage": "https://www.limitlessv.com",
+      "role": "Technical Support"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "github.com/limitlessv/magento2_HelloWorld.git"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "limitlessv\\magento2_HelloWorld\\": ""
+    }
+  }
+}
