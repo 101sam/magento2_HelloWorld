@@ -20,7 +20,7 @@
   ],
   "autoload": {
     "files": [
-      "registration.php"
+      "app/code/limitlessv/magento2_HelloWorld/registration.php"
     ],
     "psr-4": {
       "limitlessv\\magento2_HelloWorld\\": ""
