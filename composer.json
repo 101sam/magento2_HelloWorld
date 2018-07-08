@@ -11,7 +11,7 @@
       "role": "Technical Support"
     }
   ],
-  "minimum-stability": "masterÅ",
+  "minimum-stability": "master",
   "repositories": [
     {
       "type": "git",
