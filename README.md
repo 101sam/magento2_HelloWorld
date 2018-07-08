@@ -1,12 +1,21 @@
 # Magento2 Hello World module
 ## Geting Started:
 
+### Setup composer
+```
+composer config repositories.repo git hhttps://github.com/limitlessv/magento2_HelloWorld.git
+composer require "magento2_HelloWorld"
+composer update
+```
+
+
 ### The new github EMAIL Policy & "Push rejected: Push master to origin/master was rejected by remote"
+```
 git commit --amend --author 'FirstName LastName <123456+abcdef@users.noreply.github.com>' --no-edit
 git commit --amend --reset-author
 git config user.email 123456+abcdef@users.noreply.github.com
 git config --global user.email 123456+abcdef@users.noreply.github.com
-
+```
 ## Insperation & References:
 
 ##License:
